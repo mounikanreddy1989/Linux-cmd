@@ -1,0 +1,14 @@
+Linux useful commands
+ls - lists all the files
+ls -l
+ls -la
+cp -copy
+rm -r
+
+lsblk -
+blkid
+fdisk
+
+su-
+
+ping -
