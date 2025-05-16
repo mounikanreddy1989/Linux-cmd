@@ -5,10 +5,24 @@ ls -la
 cp -copy
 rm -r
 
+-> How to search and replace the string in vi editor/vim editor
+Search
+Esc /Search text   - n for next occurence, N for previous occurence.
+- If we want to search particular word /\<search string\/>
+
+Replacing the text
+* :[range]s/{pattern}/{string}/[flags] [count]   - :s/search string/replace string   :%s/search/replace
+* if we want to replace all the occurences of the word add g flag in the command -  :s/search string/replace string/g
+
+
+
+su- swith user
+
+ping - The ping command is used to test the network connectivity between our computer and another device or server. 
+       It sends ICMP echo request packets to the target host and waits for a response. If the host is reachable, it replies, and ping displays the response time. 
+       This helps diagnose network issues and check if a host is online and how long it takes for data to travel to and from that host.
+
+
 lsblk -
 blkid
 fdisk
-
-su-
-
-ping -
